@@ -29,15 +29,25 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.головнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.головнаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // головнаToolStripMenuItem
+            // 
+            this.головнаToolStripMenuItem.Name = "головнаToolStripMenuItem";
+            this.головнаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.головнаToolStripMenuItem.Text = "Головна";
             // 
             // Form1
             // 
@@ -48,6 +58,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -56,5 +68,6 @@
         #endregion
 
         private MenuStrip menuStrip1;
+        private ToolStripMenuItem головнаToolStripMenuItem;
     }
 }
