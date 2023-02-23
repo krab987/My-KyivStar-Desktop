@@ -1,0 +1,116 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_loveUA_tariff.Text" xml:space="preserve">
+    <value>LOVE UA База
+
+Мобільний зв'язок
+1ГБ + 5 ГБ
+Безлім дзвінки на Київстар
+75 хв дзвінки на інші мобільні та міські номери по Україні
+19 додатків без плати за трафік
+7 Суперсили без доплат, 1 на вибір
+100 хвилин
+100 SMS
+SIM для планшета
+
+75 грн/4 тижні 
+= 2,68 грн/день</value>
+  </data>
+  <data name="lbl_LoveUABezmezh_tariff.Text" xml:space="preserve">
+    <value>LOVE UA Без меж
+
+Мобільний зв'язок
+Безлім мобільний інтернет
+4000 МБ мобільний інтернет у
+роумінгу в 27 країнах
+Безлім дзвінки на Київстар, 100 хвилин на інші.
+275 хв дзвінки на інші мобільні, міські та за кордон
+7 Суперсили без доплат,1 на вибір, ТБ
+
+275 грн/4 тижні
+=9,83 грн/день</value>
+  </data>
+  <data name="lbl_LoveUaMaximum_tariff.Text" xml:space="preserve">
+    <value>LOVE UA На максимум
+
+Мобільний зв'язок
+15 ГБ +5 ГБ
+2500 МБ мобільний інтернет у роумінгу в 27 країнах
+Безлім дзвінки на Київстар
+150 хв дзвінки на інші мобільні, міські та за кордон
+40 додатків без плати за трафік
+Суперсили без доплат, Допомога ЗСУ, ТБ
+
+175 грн/4 тижні 
+= 6,25 грн/день</value>
+  </data>
+  <data name="lbl_LoveUaNoLimit_tariff.Text" xml:space="preserve">
+    <value>LOVE UA Безлім
+
+Мобільний зв'язок
+Безлім мобільний інтернет
+Безлім дзвінки на Київстар
+100 хв дзвінки на інші мобільні та міські номери по Україні
+Суперсили без доплат,  Допомога 3CУ, ТБ
+
+225 грн/4 тижні
+= 8,04 грн/день</value>
+  </data>
+</root>
